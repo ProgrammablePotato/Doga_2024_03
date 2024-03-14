@@ -1,0 +1,8 @@
+{
+    "server":[
+        "node_modules/bootstrap/dist/css",
+        "node_modules/bootstrap/dist/js",
+        "src"],
+    "port":3000,
+    "watch":true
+}
