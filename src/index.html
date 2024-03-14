@@ -1,0 +1,46 @@
+
+<!--
+* File: index.html
+* Author: Mihelik Tamás
+* Copyright: 2024, Mihelik Tamás
+* Group: Szoft I/1/N
+* Date: 2024-03-14
+* Github: https://github.com/ProgrammablePotato/
+* Licenc: GNU GPL -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.css">
+</head>
+<body>
+    <div class="container">
+        <div class="ellipszis">
+            <div class="input">
+                <label for="side">Első tengely</label>
+                <input type="text" class="form-control" id="axis1" required>
+            </div>
+            <div class="input">
+                <label for="side">Második tengely</label>
+                <input type="text" class="form-control" id="axis2" required>
+            </div>
+            <div class="input">
+                <label for="side">Harmadik tengely</label>
+                <input type="text" class="form-control" id="axis3" required>
+            </div>
+            <div>
+                <button id="calcbutton" class="btn btn-primary">Számít</button>
+            </div>
+            <div class="input">
+                <label for="volume">Kerület</label>
+                <input type="text" class="form-control" id="volume" readonly>
+            </div>
+        </div>
+    </div>
+    <script src="bootstrap.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
